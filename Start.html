@@ -27,6 +27,25 @@
 		<img class="Images" src="images/pe.jpg" style="width:100%">
 		<img class="Images" src="images/sm.jpeg" style="width:100%">
 </section>
+<!--Slideshow purposes-->
+<script>
+
+	var index = 0;
+	carousel();
+	
+	function carousel() {
+		var a;
+		var b = document.getElementsByClassName("Images");
+			for( a = 0; a < b.length; a++){
+				b[a].style.display = "none";
+	}
+	
+	index++;
+	if (index > b.length) {index = 1}
+	b[index-1].style.display = "block";
+	setTimeout(carousel, 3000);
+	}
+
 </body>
 
 
