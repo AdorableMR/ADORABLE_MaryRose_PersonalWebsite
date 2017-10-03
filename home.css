@@ -59,6 +59,17 @@ body{
 
 .home-center{
 	
-	text-align: center!important;
+	margin-left:25%;
 	
+}
+
+.home-wide{
+	
+	text-align: center;
+	background-color:gray;
+	
+}
+
+.home-opacity{
+	text-align: center;
 }
