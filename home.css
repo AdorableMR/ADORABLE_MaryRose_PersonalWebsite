@@ -29,7 +29,12 @@ html{
 	margin-right:auto;
 	margin-top:auto;
 }
-
+.Images{
+	
+	height: 700px;
+	width: 500px;
+	
+}
 body{
 	
 	margin:30px;
