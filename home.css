@@ -82,3 +82,11 @@ body{
 	text-align: center;
 	
 }
+.footer-container{
+	padding-bottom:5px;
+	padding-top:5px;
+	color: black;
+	text-align: center;
+	background-color:DarkGray;
+	font-size:15px;
+}
