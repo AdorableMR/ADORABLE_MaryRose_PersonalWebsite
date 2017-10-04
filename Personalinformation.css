@@ -2,14 +2,20 @@
 	
 	background-color: black;
 	float: left;
-	margin-right:30px;
+	margin-right:20px;
 	padding-left:15px;
 	padding-right:15px;
 	padding-bottom:15px;
 	padding-top:15px;
+	overflow:auto;
 
 }
 .work{
+	
+	margin-top:400px;
+	text-align:justify;
+	margin-right:10px;
+	
 }
 
 .page-name{
@@ -21,5 +27,4 @@
 
 .profpict{
 	float: left;
-	margin-right:20px;
 }
