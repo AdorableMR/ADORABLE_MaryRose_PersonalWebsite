@@ -17,8 +17,38 @@
 		<a href="Personalinformation.html" target="_blank" class="home-button home-bar-item"style="color:white"><b>Personal Information</b></a>
 		<a href="AboutMe.html"  target="_blank" class="home-button home-bar-item" style="color:white"><b>About Me</b></a>
 </nav>
+
 <section>
-	<h1 class="About-bar"style="color:white">ABOUT ME</h1>
+		<h1 class="About-bar"style="color:white">ABOUT ME</h1>
+		<img class="Images" src="images/crop.jpg">
+		<img class="Images"	src="images/crop1.jpg">
+		<img class="Images"	src="images/crop4.jpg">
+		<img class="Images"	src="images/crop2.jpg">
+		<img class="Images"	src="images/crop3.jpg">
+		
+</section>
+
+<script>
+
+	var index = 0;
+	carousel();
+	
+	function carousel() {
+		var a;
+		var b = document.getElementsByClassName("Images");
+			for( a = 0; a < b.length; a++){
+				b[a].style.display = "none";
+	}
+	
+	index++;
+	if (index > b.length) {index = 1}
+	b[index-1].style.display = "block";
+	setTimeout(carousel, 3000);
+	}
+	
+</script>
+
+<section>
 <!--home-profile class for profile heading-->
 	<img class="ProfPict" src="images/psits.jpg" style="margin-right:20px" >
 	<img class="ProfPict" src="images/kick.jpg" style="margin-right:20px">
@@ -34,6 +64,7 @@
 	<img class="ProfPict" src="images/shouldersit.jpg" style="margin-right:20px">
 	<img class="ProfPict" src="images/balance.jpg" style="margin-right:20px">
 </section>
+
 
 
 
