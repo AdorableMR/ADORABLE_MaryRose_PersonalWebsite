@@ -1,6 +1,6 @@
 .info{
 	
-	background-color: black;
+	
 	float: left;
 	margin-left:15px;
 	margin-right:20px;
@@ -8,7 +8,7 @@
 	padding-right:15px;
 	padding-bottom:15px;
 	padding-top:15px;
-	background-image: URL("images/walls.jpg");
+	
 
 }
 	
