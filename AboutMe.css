@@ -1,3 +1,30 @@
+body,html{
+	height:100%;
+	
+}
+
+.parallax{
+	background-image:URL('background.jpg');
+	height:100%;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.parallaxStyle{
+	height:1000px;
+	background-color: LightSeaGreen;
+	font-size:35px;
+	
+}
+
+@media only screen and (max-device-width: 1024){
+	
+	.parallax{
+		background-attachment:scroll;
+	}
+}
 .AboutMe-bar{
 	text-align:right;
 	margin-right: 150x;

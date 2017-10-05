@@ -85,6 +85,8 @@ body{
 
 .home-MyName{
 	text-align: center;
+	background-color:LightSeaGreen; 
+	padding: 5px 5px 5px 5px;
 	
 }
 .footer-container{
